@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab03
 {
-    class Program
+    class Matrix
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Ура изменения! =)");
-        }
+        int[] data;
     }
 }
