@@ -9,5 +9,10 @@ namespace Lab03
     class Matrix
     {
         int[] data;
+
+        public Matrix(int[] data)
+        {
+            this.data = data;
+        }
     }
 }
