@@ -10,7 +10,8 @@ namespace Lab03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ура изменения! =)");
+            var triangle = new Triangle();
+            Console.WriteLine("Ура изменения! =)" + triangle.ToString());
         }
     }
 }
