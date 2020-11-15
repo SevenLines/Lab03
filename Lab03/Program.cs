@@ -10,7 +10,7 @@ namespace Lab03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ура изменения! =)");
+            Console.WriteLine("Ура изменения! =) Мы в ветке master!");
         }
     }
 }
