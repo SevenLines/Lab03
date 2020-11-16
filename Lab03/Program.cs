@@ -11,7 +11,11 @@ namespace Lab03
         static void Main(string[] args)
         {
             var triangle = new Triangle();
-            Console.WriteLine("Ура изменения! =) Мы в ветке master!" + triangle.ToString());
+            Console.WriteLine(
+                "Ура изменения! =) Мы в ветке master!" 
+                + triangle.ToString()
+            );
+            Console.ReadKey();
         }
     }
 }
